@@ -32,7 +32,7 @@ hr{
 	width: 60px;
 	height: 3px !important;
 	background: #fff;
-	margin: 3% auto;
+	margin: 8% auto;
 }
 
 
@@ -44,7 +44,7 @@ hr{
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-
+	background-position: center;
 }
 
 .navbar-brand{
@@ -71,12 +71,12 @@ li.nav-item:hover a{
 
 .top-content{
 	position: absolute;
-	top: 0;
+	top: 20%;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 65%;
-	height: 75%;
+	width: 90%;
+	height: 100%;
 	margin: auto;
 }
 
@@ -101,5 +101,39 @@ li.nav-item:hover a{
 	font-weight: bold;
 	padding: 5px 25px;
 	text-transform: uppercase;
-	margin-top: 2%;
+}
+
+.slider-wrap{
+	position: absolute;
+	width: 100%;
+	bottom:15%;
+	left: 0;
+}
+
+.slider{
+	width: 23%;
+	text-align: left;
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.slider span{
+	font-weight: bold;
+	margin-right: 5px;
+	margin-top: 30px;
+}
+
+.slider .progress {
+	height: 3px;
+	width: 100%;
+	background-color: #f7eac4;
+}
+
+.progress-bar{
+	background-color: #f38181;
+}
+
+.slider-content{
+	margin-top: 30px;
 }
