@@ -1,0 +1,105 @@
+
+*{margin: 0; padding: 0;}
+
+html, body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	overflow-x: hidden;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased !important;
+	font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important; 
+	text-shadow: 0 0 1px rgba(0,0,0,0.1);
+	color: #fff;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+h2{
+	font-family: 'Kaushan Script', cursive;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+hr{
+	width: 60px;
+	height: 3px !important;
+	background: #fff;
+	margin: 3% auto;
+}
+
+
+/*===========TOP===========*/
+#top{
+	background-image: url("../images/banner.jpg");
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+
+.navbar-brand{
+	color: #fff !important;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+a.nav-link {
+    color: #fff!important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li.nav-item {
+    padding-right: 30px;
+}
+
+li.nav-item:hover a{
+	color: #fce38a !important;
+	border-bottom: 3px solid #fce38a;
+}
+
+.top-content{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 65%;
+	height: 75%;
+	margin: auto;
+}
+
+.top-content h2{
+	font-size: 72px;
+}
+
+.top-content h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 150px;
+	margin: 0 0;
+	line-height: 130px;
+}
+
+.top-content button{
+	background: transparent;
+	border-radius: 0;
+	border: 3px solid #fff;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 25px;
+	text-transform: uppercase;
+	margin-top: 2%;
+}
